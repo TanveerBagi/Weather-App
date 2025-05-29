@@ -1,4 +1,5 @@
 from geopy.geocoders import Nominatim
+import streamlit as st
 import requests
 
 def get_coordinates(location_name):
