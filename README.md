@@ -19,6 +19,7 @@ The app allows users to search real-time weather conditions for any location wor
 
 - Streamlit
 - SQLite
+- geopy
 - OpenWeatherMap API
 - Pandas
 - Python Standard Libraries: `datetime`, `requests`, `os`
@@ -37,12 +38,12 @@ The app allows users to search real-time weather conditions for any location wor
 
 
 ## 📁 Folder Structure
-
+'''
 weather-app/
 ├── weather_app_main.py
 ├── history_storer.py
 ├── requirements.txt
 ├── weather.db        # will be created automatically by the weather app
 └── README.md
-
+'''
 
