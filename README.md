@@ -47,3 +47,10 @@ weather-app/
 └── README.md
 ```
 
+## Note
+```
+create a file named .streamlit/config.toml in the same directory as the weather_app_main.py file and add 
+[theme]
+base = "light"
+inside the file for light mode and a better experience
+```
