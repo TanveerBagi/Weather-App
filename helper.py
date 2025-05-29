@@ -24,7 +24,7 @@ def validate_coordinates(coord_string):
 
 
 def get_weather(lat, lon, mode):
-    api_key = "OpenWeatherMap API Key" # Add the api key here
+    api_key = st.secrets["weather_api"] # Add the api key instad of st.secrets["weather_api"]
     if mode == "current":
         url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_key}&units=metric"
     elif mode == "forecast":
