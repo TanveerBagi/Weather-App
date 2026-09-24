@@ -71,3 +71,5 @@ def update_record(record_id, location, date_time, avg_temperature, sky_condition
           int(humidity), float(wind_speed), wind_direction, int(record_id)))
     conn.commit()
     conn.close()
+def user():
+    print("hello")
